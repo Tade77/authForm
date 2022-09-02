@@ -6,7 +6,13 @@ body {
   padding: 0;
   margin: 0;
 }
-* {
+* body {
   box-sizing: border-box;
+  font-family: "PT Serif", serif;
 }
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
 @tailwind utilities;

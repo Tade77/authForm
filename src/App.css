@@ -1,0 +1,27 @@
+.bg {
+  width: 50rem;
+  height: 30rem;
+  display: grid;
+  grid-template-columns: 1fr 60%;
+}
+.sec1 {
+  background-image: url("./assets/thom-bradley.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: whitesmoke;
+  background-image: url("./assets/form2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.login--bg {
+  background-image: url("./assets/spacejoy.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
